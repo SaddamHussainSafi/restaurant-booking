@@ -25,17 +25,17 @@ I referred to the following guide from GeeksforGeeks for understanding the basic
 
 ## Screenshots
 
-### 1. Screenshot 1
+### 1. Normal Screen
 ![Screenshot 1](images/Screenshot-1.jpg)
 
-### 2. Screenshot 2
+### 2. Name Error
 ![Screenshot 2](images/Screenshot-2.jpg)
 
-### 3. Screenshot 3
+### 3. Phone Number Error
 ![Screenshot 3](images/Screenshot-3.jpg)
 
-### 4. Screenshot 4
+### 4. All fields working
 ![Screenshot 4](images/Screenshot-4.jpg)
 
-### 4. Screenshot 5
+### 4. Booking Confirmed
 ![Screenshot 5](images/Screenshot-5.jpg)
