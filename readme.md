@@ -6,21 +6,22 @@ This is a simple web-based dinner booking form built using HTML, CSS, and JavaSc
 - Input validation for Name and Phone Number
 - Radio buttons for selecting booking time
 - Checkboxes for food options
-- Dynamic feedback on errors with red input fields and helpful messages
+- Dynamic feedback on errors with Bootstrap styling
 - Disabled submit button until all required fields are valid
 - Displays a confirmation message after successful submission
+- Responsive layout styled with [Bootstrap](https://getbootstrap.com/)
 
 ## Changes & Improvements
 - Added real-time form validation logic for:
   - Name: Requires at least first and last name (e.g., "John Smith")
-  - Phone Number: Exactly 6 characters and must start with a number
-- Used color feedback (red for errors, white for valid fields)
+  - Phone Number: Exactly 6 digits
+- Modernized the interface using Bootstrap 5 for a cleaner layout
 - Submit button remains disabled until both fields are valid
 - Displayed reservation details dynamically at the bottom
 - Simplified and cleaned up the UI for better user experience
 
 ## Help & References
-I referred to the following guide from GeeksforGeeks for understanding the basics of form submission and validation:  
+I referred to the following guide from GeeksforGeeks for understanding the basics of form submission and validation:
 [Implementing a Webpage to Book Seat for Restaurant](https://www.geeksforgeeks.org/implementing-a-webpage-to-book-seat-for-restaurant/)
 
 ## Screenshots
