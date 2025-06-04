@@ -13,7 +13,7 @@ This is a simple web-based dinner booking form built using HTML, CSS, and JavaSc
 ## Changes & Improvements
 - Added real-time form validation logic for:
   - Name: Requires at least first and last name (e.g., "John Smith")
-  - Phone Number: Exactly 6 characters and must start with a number
+  - Phone Number: Exactly 6 digits
 - Used color feedback (red for errors, white for valid fields)
 - Submit button remains disabled until both fields are valid
 - Displayed reservation details dynamically at the bottom
