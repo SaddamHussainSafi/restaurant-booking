@@ -78,7 +78,7 @@
       return true;
     }
 
-    // Validate the phone input: exactly 6 characters, must start with a number
+    // Validate the phone input: must be exactly 6 digits
     function validatePhone() {
       const phoneInput = document.getElementById('phone');
       const phone = phoneInput.value.trim();
@@ -92,8 +92,8 @@
         return false;
       }
 
-      if (!/^\d.{5}$/.test(phone)) {
-        msg.textContent = "Error: Phone number must start with numbers and be 6 characters.";
+      if (!/^\d{6}$/.test(phone)) {
+        msg.textContent = "Error: Phone number must be exactly 6 digits.";
         phoneInput.classList.add("error");
         phoneInput.classList.remove("valid");
         updateSubmitState();
